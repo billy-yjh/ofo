@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 获取当前地理位置 经纬度  -->
+  <!-- {{xxx}}--》数据绑定 -->
+  <map latitude="{{latitude}}" longitude="{{longitude}}" 
+  id="ofo-map" scale="16" show-location controls="{{controls}}"
+   bindcontroltap='bindcontroltap'></map>
+</view>
+ 
